@@ -1,5 +1,5 @@
 module.exports = (sequilize, Sequilize) => {
-    const Role = sequilize.define('Roles', {
+    const Role = sequilize.define('Roless', {
         id: {
             type: Sequilize.INTEGER,
             primaryKey: true
